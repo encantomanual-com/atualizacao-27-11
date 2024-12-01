@@ -16,6 +16,8 @@ if (empty($_SESSION['id_conta']))
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/btn-banner.css">
+
 
     <title>Encanto Manual - Valorizando o talento local e transformando o comércio!</title>
 
@@ -152,98 +154,25 @@ if (empty($_SESSION['id_conta']))
     <h2>Mais de <span>70% Off</span> - Todos os produtos!</h2>
     <a href="shop.php">
         <button class="normal"><span>COMPRE AGORA</span></button>
-        <style>
-            /* Estilo do botão */
-    button.normal {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 15px 30px;
-    color: #ffffff;
-    background-image: linear-gradient(45deg, #ff4500, #ff9900);
-    border-radius: 8px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    transition: all 0.4s ease;
-    position: relative;
-    box-shadow: 0px 4px 10px rgba(255, 69, 0, 0.5);
-    overflow: hidden;
-    }
-
-    button.normal:hover {
-    background-image: linear-gradient(45deg, #ff9900, #ff4500);
-    box-shadow: 0px 8px 20px rgba(255, 69, 0, 0.8);
-    transform: translateY(-2px) scale(1.05); /* Efeito de subida suave */
-    }
-
-    /* Efeito de brilho pulsante */
-    button.normal::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 120%;
-    height: 120%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 0%, transparent 60%);
-    transform: translate(-50%, -50%) scale(0);
-    border-radius: 50%;
-    z-index: 0;
-    opacity: 0.7;
-    transition: all 0.4s ease;
-    }
-
-    button.normal:hover::before {
-    transform: translate(-50%, -50%) scale(1.2);
-    opacity: 1;
-    }
-
-    /* Efeito 3D no texto */
-    button.normal span {
-    position: relative;
-    z-index: 1;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Estilo adicional para o banner */
-    #banner {
-    text-align: center;
-    background-color: #f8f9fa;
-    padding: 40px 20px;
-    }
-
-    #banner h4 {
-    color: #ff4500;
-    font-size: 20px;
-    margin-bottom: 10px;
-    }
-
-    #banner h2 {
-    color: #white;
-    font-size: 28px;
-    margin-bottom: 20px;
-    }
-
-    #banner h2 span {
-    color: #ff4500;
-    }
-
-        </style>
     </a>
     </section>
 
 
     <section class="banner3" id="banner3">
         <div class="banner-box">
-            <h2>Itens de decoração</h2>
+            <h2>ITENS DE DECORAÇÃO</h2>
             <h3> 25% OFF</h3>
+            <a href="shop.php" class="normal-link"><button class="normal">Comprar agora</button></a>
         </div>
         <div class="banner-box banner-box2">
-            <h2>Obras de arte</h2>
+            <h2>OBRAS DE ARTE</h2>
             <h3>30% OFF</h3>
+            <a href="shop.php" class="normal-link"><button class="normal">Comprar agora</button></a>
         </div>
         <div class="banner-box banner-box3">
-            <h2>Acessórios</h2>
+            <h2>ACESSÓRIOS</h2>
             <h3>50% OFF</h3>
+            <a href="shop.php" class="normal-link"><button class="normal">Comprar agora</button></a>
         </div>
     </section>
 
